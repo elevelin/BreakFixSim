@@ -35,10 +35,11 @@ Each issue can be resolved with basic Linux skills.
 ### Build the container:
 ```bash
 docker build -t break-fix .
+```
 Run the simulator:
-bash
-Copy code
+```bash
 docker run -it break-fix
+```
 You’ll be dropped into a broken Linux environment. Use your skills to investigate and repair the system.
 
 🧪 Tools You Might Use
